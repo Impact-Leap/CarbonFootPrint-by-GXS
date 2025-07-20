@@ -4,6 +4,7 @@ Uses CrewAI to create agents for various tasks.
 """
 
 import os
+import pysqlite3 as sqlite3
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, LLM
 
