@@ -11,6 +11,9 @@ import plotly.graph_objects as go
 from dotenv import load_dotenv
 import base64
 from io import BytesIO
+import pysqlite3
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Load environment variables
 load_dotenv()
