@@ -1,5 +1,5 @@
 """
-AI Agents for YourCarbonFootprint application.
+AI Agents for CarbonFootprint by GXS application.
 Uses CrewAI to create agents for various tasks.
 """
 
