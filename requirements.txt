@@ -1,6 +1,5 @@
 streamlit
 python-dotenv
-pysqlite3-binary
 crewai
 crewai_tools
 pandas
@@ -11,4 +10,4 @@ fpdf
 langchain_groq
 faiss-cpu
 gunicorn
-
+sqlite3 >= 3.35.0
