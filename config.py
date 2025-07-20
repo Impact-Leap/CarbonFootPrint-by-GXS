@@ -1,5 +1,5 @@
 """
-Configuration settings for YourCarbonFootprint application.
+Configuration settings for CarbonFootprint by GXS application.
 """
 
 import os
