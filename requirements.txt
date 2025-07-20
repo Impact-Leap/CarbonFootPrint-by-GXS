@@ -10,4 +10,5 @@ fpdf
 langchain_groq
 faiss-cpu
 gunicorn
-sqlite3 >= 3.35.0
+chromadb
+pysqlite3-binary
