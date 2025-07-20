@@ -1012,7 +1012,7 @@ elif st.session_state.active_page == "Data Entry":
                 if cost > 0:
                     currency = st.selectbox(
                         "Currency",
-                        ["USD", "EUR", "INR", "GBP", "JPY", "Other"],
+                        ["VND", "USD", "EUR", "INR", "GBP", "JPY", "Other"],
                         help="Currency for the entered cost"
                     )
             
