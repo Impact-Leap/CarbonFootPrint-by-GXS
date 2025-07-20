@@ -611,9 +611,9 @@ def local_css():
 # Navigation component
 def render_navigation():
     nav_items = [
-        {"icon": "🤖", "label": "AI Insights", "id": "AI Insights"},
         {"icon": "📝", "label": "Data Entry", "id": "Data Entry"},
         {"icon": "📊", "label": "Dashboard", "id": "Dashboard"},
+        {"icon": "🤖", "label": "AI Insights", "id": "AI Insights"},
         {"icon": "⚙️", "label": "Settings", "id": "Settings"}
     ]
     
