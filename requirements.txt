@@ -1,5 +1,6 @@
 streamlit
 python-dotenv
+pysqlite3-binary
 crewai
 crewai_tools
 pandas
@@ -10,4 +11,4 @@ fpdf
 langchain_groq
 faiss-cpu
 gunicorn
-pysqlite3-binary
+
