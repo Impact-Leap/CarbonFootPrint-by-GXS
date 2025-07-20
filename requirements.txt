@@ -1,6 +1,6 @@
 streamlit
 python-dotenv
-pysqlite3
+pysqlite3-binary
 crewai
 crewai_tools
 pandas
