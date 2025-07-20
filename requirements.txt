@@ -10,3 +10,4 @@ fpdf
 langchain_groq
 faiss-cpu
 gunicorn
+sqlite
