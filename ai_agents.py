@@ -6,6 +6,9 @@ Uses CrewAI to create agents for various tasks.
 import os
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, LLM
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Load environment variables
 load_dotenv()
