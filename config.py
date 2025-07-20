@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Application settings
-APP_NAME = "YourCarbonFootprint"
+APP_NAME = "CarbonFootprint by GXS"
 APP_VERSION = "1.0.0"
 APP_DESCRIPTION = "A lightweight, multilingual carbon accounting and reporting tool for SMEs in Asia"
-APP_AUTHOR = "Sonu Kumar"
-APP_CONTACT = "sonu@aianytime.net"
+APP_AUTHOR = "Son Nguyen"
+APP_CONTACT = "sonncdx@gmail.com"
 
 # API keys
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
@@ -24,7 +24,7 @@ EMISSIONS_FILE = os.path.join(DATA_DIR, "emissions.json")
 COMPANY_INFO_FILE = os.path.join(DATA_DIR, "company_info.json")
 
 # Supported languages
-SUPPORTED_LANGUAGES = ["English", "Hindi"]
+SUPPORTED_LANGUAGES = ["English", "Vietnamese"]
 
 # Emission scopes
 EMISSION_SCOPES = ["Scope 1", "Scope 2", "Scope 3"]
