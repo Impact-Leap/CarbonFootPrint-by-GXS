@@ -19,7 +19,7 @@ load_dotenv()
 os.makedirs('data', exist_ok=True)
 
 # Set page config for wide layout
-st.set_page_config(page_title="CarbonFootPrint by GXS", page_icon="🌍", layout="wide")
+st.set_page_config(page_title="YourCarbonEmissions by GXS", page_icon="🌍", layout="wide")
 
 # Initialize session state variables if they don't exist
 if 'language' not in st.session_state:
@@ -73,7 +73,7 @@ if 'active_page' not in st.session_state:
 # Translation dictionary
 translations = {
     'English': {
-        'title': 'CarbonFootPrint by GXS',
+        'title': 'YourCarbonEmissions by GXS',
         'subtitle': 'Carbon Accounting & Reporting Tool for SMEs',
         'dashboard': 'Dashboard',
         'data_entry': 'Data Entry',
@@ -109,14 +109,14 @@ translations = {
         'report_downloaded': 'Report downloaded successfully!',
         'settings_saved': 'Settings saved successfully!',
         'no_data': 'No data available.',
-        'welcome_message': 'Welcome to CarbonFootPrint by GXS! Start by adding your emissions data or uploading a CSV file.',
+        'welcome_message': 'Welcome to YourCarbonEmissions by GXS! Start by adding your emissions data or uploading a CSV file.',
         'custom_category': 'Custom Category',
         'custom_activity': 'Custom Activity',
         'custom_unit': 'Custom Unit',
         'entry_failed': 'Failed to add entry.'
     },
     'Vietnamese': {
-        'title': 'CarbonFootPrint by GXS',
+        'title': 'YourCarbonEmissions by GXS',
         'subtitle': 'Công cụ Kiểm kê Khí Nhà kính và Báo cáo KKKNK cho Doanh nghiệp SMEs',
         'dashboard': 'Dashboard',
         'data_entry': 'Nhập Dữ liệu',
@@ -152,7 +152,7 @@ translations = {
         'report_downloaded': 'Báo cáo đã được tải xuống!',
         'settings_saved': 'Cài đặt đã được lưu!',
         'no_data': 'Không có dữ liệu',
-        'welcome_message': 'Chào mừng Bạn đến CarbonFootPrint by GXS! Bắt đầu bằng nhập dữ liệu phát thải của bạn hoặc tải file CSV lên',
+        'welcome_message': 'Chào mừng Bạn đến YourCarbonEmissions by GXS! Bắt đầu bằng nhập dữ liệu phát thải của bạn hoặc tải file CSV lên',
         'custom_category': 'Điều chỉnh Tiểu mục',
         'custom_activity': 'Điều chỉnh Hoạt động',
         'custom_unit': 'Điều chỉnh Đơn vị',
@@ -1190,7 +1190,7 @@ elif st.session_state.active_page == "AI Insights":
         st.markdown("Get help with classifying emissions and mapping them to the correct scope.")
         
         data_description = st.text_area("Describe your emission activity", 
-                                      placeholder="Example: We use diesel generators for backup power at our office in Mumbai. How should I categorize this?")
+                                      placeholder="Example: We use diesel generators for backup power at our office in Hai Phong. How should I categorize this?")
         
         if st.button("Get Assistance", key="data_assistant_btn"):
             if data_description:
