@@ -831,7 +831,7 @@ elif st.session_state.active_page == "Data Entry":
     tabs = st.tabs([" Manual Entry", " CSV Upload"])
     
     with tabs[0]:
-        st.markdown("<h3>Add New Emission Entry</h3>", unsafe_allow_html=True)
+        st.markdown("<h3>Add New Emission Entry (Nhập Dữ liệu phát thải mới)</h3>", unsafe_allow_html=True)
         with st.form("emission_form", border=False):
             col1, col2 = st.columns(2)
             with col1:
